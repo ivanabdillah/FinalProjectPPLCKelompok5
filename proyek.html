@@ -25,22 +25,24 @@
   <link rel="preload" as="style" href="assets/mobirise/css/mbr-additional.css">
   <link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css">
 
-    <!-- Google Font: Source Sans Pro -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
-    <!-- Font Awesome Icons -->
-    <link rel="stylesheet" href="plugins/fontawesome-free/css/all.min.css">
-    <!-- Theme style -->
-    
-    <style>
-      .btn{
-        font-size: 12px;
-      }
+  <!-- Google Font: Source Sans Pro -->
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="plugins/fontawesome-free/css/all.min.css">
+  <!-- Theme style -->
 
-      .btn-primary,.btn-success,.btn-danger{
-        width: 180px;
-      }
+  <style>
+    .btn {
+      font-size: 12px;
+    }
 
-    </style>
+    .btn-primary,
+    .btn-success,
+    .btn-danger {
+      width: 180px;
+    }
+  </style>
 
 </head>
 
@@ -93,542 +95,547 @@
       <h2 class="mbr-section-title mbr-fonts-style align-center pb-3 display-2">
         Proyek
       </h2>
-    <div class="col-12">
-      <div class="card">
-        <div class="card-header">
-          <div class="card-title">
-            <div class="input-group input-group-sm">
-              <input type="text" name="table_search" class="form-control float-right"
-                placeholder="Search by typing here">
+      <div class="col-12">
+        <div class="card">
+          <div class="card-header">
+            <div class="card-title">
+              <div class="input-group input-group-sm">
+                <input type="text" name="table_search" class="form-control float-right"
+                  placeholder="Search by typing here">
 
-              <div class="input-group-append">
-                <button type="submit" class="btn btn-default">
-                  <i class="fas fa-search"></i>
-                </button>
+                <div class="input-group-append">
+                  <button type="submit" class="btn btn-default">
+                    <i class="fas fa-search"></i>
+                  </button>
+                </div>
               </div>
             </div>
+            <div class="card-tools">
+              <a href="#">
+                <button class="btn btn-primary" data-toggle="modal"
+                data-target="#exampleModalCenter">Tambah<i class="fas fa-plus"></i></button>
+              </a>
+            </div>
+
           </div>
-          <div class="card-tools"><button class="btn btn-primary">Tambah <i class="fas fa-plus"></i></button></div>
+          <!-- ./card-header -->
+          <div class="card-body table-responsive p-0">
+            <div class="col-xs-12 col-md-6 col-lg-6">
 
-        </div>
-        <!-- ./card-header -->
-        <div class="card-body table-responsive p-0">
-          <div class="col-xs-12 col-md-6 col-lg-6">
+            </div>
+            <table class="table table-bordered table-hover">
+              <thead class="bg-secondary">
+                <tr>
+                  <th>#</th>
+                  <th>Nama Proyek</th>
+                  <th>Lokasi</th>
+                  <th>Action</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr data-widget="expandable-table" aria-expanded="false">
+                  <td>1</td>
+                  <td>Proyek 1</td>
+                  <td>Jalan Lokasi Proyek 1</td>
+                  <td>
+                    <button class="btn btn-primary">Lihat&nbsp;<i class="far fa-eye"></i></button>
+                    <button class="btn btn-success">Edit&nbsp;<i class="fa fa-edit"></i></button>
+                    <button class="btn btn-danger">Hapus&nbsp;<i class="fa fa-trash"></i></button>
+                  </td>
+                </tr>
+                <tr class="expandable-body d-none">
+                  <td colspan="5">
+                    <div class="row">
+                      <div class="col-12">
+                        <div class="card">
+                          <div class="card-header">
+                            <h2 class="card-title"><strong>Neraca Saldo</strong></h2>
+                            <div class="card-tools">
+                              <button class="btn btn-primary">Lihat Neraca&nbsp;<i class="far fa-eye"></i></button>
+                            </div>
 
+                          </div>
+                          <!-- /.card-header -->
+                          <div class="card-body">
+                            <div class="btn-group btn-block" role="group" aria-label="Basic example">
+                              <button type="button" class="btn btn-dark">Kategori</button>
+                              <button type="button" class="btn btn-outline-primary">Pemasukan</button>
+                              <button type="button" class="btn btn-outline-secondary">Pengeluaran</button>
+                            </div>
+
+                          </div>
+                          <!-- /.card-body -->
+                        </div>
+                        <!-- /.card -->
+                      </div>
+                      <div class="col-12">
+                        <div class="card">
+                          <div class="card-header">
+                            <h2 class="card-title"><strong>Rencana Anggaran Belanja</strong></h2>
+                            <div class="card-tools">
+                              <button class="btn btn-primary">Lihat Rekap RAB&nbsp;<i class="far fa-eye"></i></button>
+                            </div>
+
+                          </div>
+                          <!-- /.card-header -->
+                          <div class="card-body">
+                            <div class="btn-group btn-block" role="group" aria-label="Basic example">
+                              <button type="button" class="btn btn-dark">Kategori</button>
+                              <button type="button" class="btn btn-outline-primary">Persiapan</button>
+                              <button type="button" class="btn btn-outline-secondary">Arsitektur</button>
+                              <button type="button" class="btn btn-outline-success">Struktur</button>
+                              <button type="button" class="btn btn-outline-danger">MEP</button>
+                            </div>
+
+                          </div>
+                          <!-- /.card-body -->
+                        </div>
+                        <!-- /.card -->
+                      </div>
+                    </div>
+                  </td>
+                </tr>
+                <tr data-widget="expandable-table" aria-expanded="false">
+                  <td>2</td>
+                  <td>Proyek 2</td>
+                  <td>Jalan Lokasi Proyek 2</td>
+                  <td>
+                    <button class="btn btn-primary">Lihat&nbsp;<i class="far fa-eye"></i></button>
+                    <button class="btn btn-success">Edit&nbsp;<i class="fa fa-edit"></i></button>
+                    <button class="btn btn-danger">Hapus&nbsp;<i class="fa fa-trash"></i></button>
+                  </td>
+                </tr>
+                <tr class="expandable-body d-none">
+                  <td colspan="5">
+                    <div class="row">
+                      <div class="col-12">
+                        <div class="card">
+                          <div class="card-header">
+                            <h2 class="card-title"><strong>Neraca Saldo</strong></h2>
+                            <div class="card-tools">
+                              <button class="btn btn-primary">Lihat Neraca&nbsp;<i class="far fa-eye"></i></button>
+                            </div>
+
+                          </div>
+                          <!-- /.card-header -->
+                          <div class="card-body">
+                            <div class="btn-group btn-block" role="group" aria-label="Basic example">
+                              <button type="button" class="btn btn-dark">Kategori</button>
+                              <button type="button" class="btn btn-outline-primary">Pemasukan</button>
+                              <button type="button" class="btn btn-outline-secondary">Pengeluaran</button>
+                            </div>
+
+                          </div>
+                          <!-- /.card-body -->
+                        </div>
+                        <!-- /.card -->
+                      </div>
+                      <div class="col-12">
+                        <div class="card">
+                          <div class="card-header">
+                            <h2 class="card-title"><strong>Rencana Anggaran Belanja</strong></h2>
+                            <div class="card-tools">
+                              <button class="btn btn-primary">Lihat Rekap RAB&nbsp;<i class="far fa-eye"></i></button>
+                            </div>
+
+                          </div>
+                          <!-- /.card-header -->
+                          <div class="card-body">
+                            <div class="btn-group btn-block" role="group" aria-label="Basic example">
+                              <button type="button" class="btn btn-dark">Kategori</button>
+                              <button type="button" class="btn btn-outline-primary">Persiapan</button>
+                              <button type="button" class="btn btn-outline-secondary">Arsitektur</button>
+                              <button type="button" class="btn btn-outline-success">Struktur</button>
+                              <button type="button" class="btn btn-outline-danger">MEP</button>
+                            </div>
+
+                          </div>
+                          <!-- /.card-body -->
+                        </div>
+                        <!-- /.card -->
+                      </div>
+                    </div>
+                  </td>
+                </tr>
+                <tr data-widget="expandable-table" aria-expanded="true">
+                  <td>3</td>
+                  <td>Proyek 3</td>
+                  <td>Jalan Lokasi Proyek 3</td>
+                  <td>
+                    <button class="btn btn-primary">Lihat&nbsp;<i class="far fa-eye"></i></button>
+                    <button class="btn btn-success">Edit&nbsp;<i class="fa fa-edit"></i></button>
+                    <button class="btn btn-danger">Hapus&nbsp;<i class="fa fa-trash"></i></button>
+                  </td>
+                </tr>
+                <tr class="expandable-body">
+                  <td colspan="5">
+                    <div class="row">
+                      <div class="col-12">
+                        <div class="card">
+                          <div class="card-header">
+                            <h2 class="card-title"><strong>Neraca Saldo</strong></h2>
+                            <div class="card-tools">
+                              <button class="btn btn-primary">Lihat Neraca&nbsp;<i class="far fa-eye"></i></button>
+                            </div>
+
+                          </div>
+                          <!-- /.card-header -->
+                          <div class="card-body">
+                            <div class="btn-group btn-block" role="group" aria-label="Basic example">
+                              <button type="button" class="btn btn-dark">Kategori</button>
+                              <button type="button" class="btn btn-outline-primary">Pemasukan</button>
+                              <button type="button" class="btn btn-outline-secondary">Pengeluaran</button>
+                            </div>
+
+                          </div>
+                          <!-- /.card-body -->
+                        </div>
+                        <!-- /.card -->
+                      </div>
+                      <div class="col-12">
+                        <div class="card">
+                          <div class="card-header">
+                            <h2 class="card-title"><strong>Rencana Anggaran Belanja</strong></h2>
+                            <div class="card-tools">
+                              <button class="btn btn-primary">Lihat Rekap RAB&nbsp;<i class="far fa-eye"></i></button>
+                            </div>
+
+                          </div>
+                          <!-- /.card-header -->
+                          <div class="card-body">
+                            <div class="btn-group btn-block" role="group" aria-label="Basic example">
+                              <button type="button" class="btn btn-dark">Kategori</button>
+                              <button type="button" class="btn btn-outline-primary">Persiapan</button>
+                              <button type="button" class="btn btn-outline-secondary">Arsitektur</button>
+                              <button type="button" class="btn btn-outline-success">Struktur</button>
+                              <button type="button" class="btn btn-outline-danger">MEP</button>
+                            </div>
+
+                          </div>
+                          <!-- /.card-body -->
+                        </div>
+                        <!-- /.card -->
+                      </div>
+                    </div>
+                  </td>
+                </tr>
+                <tr data-widget="expandable-table" aria-expanded="false">
+                  <td>4</td>
+                  <td>Proyek 4</td>
+                  <td>Jalan Lokasi Proyek 4</td>
+                  <td>
+                    <button class="btn btn-primary">Lihat&nbsp;<i class="far fa-eye"></i></button>
+                    <button class="btn btn-success">Edit&nbsp;<i class="fa fa-edit"></i></button>
+                    <button class="btn btn-danger">Hapus&nbsp;<i class="fa fa-trash"></i></button>
+                  </td>
+                </tr>
+                <tr class="expandable-body d-none">
+                  <td colspan="5">
+                    <div class="row">
+                      <div class="col-12">
+                        <div class="card">
+                          <div class="card-header">
+                            <h2 class="card-title"><strong>Neraca Saldo</strong></h2>
+                            <div class="card-tools">
+                              <button class="btn btn-primary">Lihat Neraca&nbsp;<i class="far fa-eye"></i></button>
+                            </div>
+
+                          </div>
+                          <!-- /.card-header -->
+                          <div class="card-body">
+                            <div class="btn-group btn-block" role="group" aria-label="Basic example">
+                              <button type="button" class="btn btn-dark">Kategori</button>
+                              <button type="button" class="btn btn-outline-primary">Pemasukan</button>
+                              <button type="button" class="btn btn-outline-secondary">Pengeluaran</button>
+                            </div>
+
+                          </div>
+                          <!-- /.card-body -->
+                        </div>
+                        <!-- /.card -->
+                      </div>
+                      <div class="col-12">
+                        <div class="card">
+                          <div class="card-header">
+                            <h2 class="card-title"><strong>Rencana Anggaran Belanja</strong></h2>
+                            <div class="card-tools">
+                              <button class="btn btn-primary">Lihat Rekap RAB&nbsp;<i class="far fa-eye"></i></button>
+                            </div>
+
+                          </div>
+                          <!-- /.card-header -->
+                          <div class="card-body">
+                            <div class="btn-group btn-block" role="group" aria-label="Basic example">
+                              <button type="button" class="btn btn-dark">Kategori</button>
+                              <button type="button" class="btn btn-outline-primary">Persiapan</button>
+                              <button type="button" class="btn btn-outline-secondary">Arsitektur</button>
+                              <button type="button" class="btn btn-outline-success">Struktur</button>
+                              <button type="button" class="btn btn-outline-danger">MEP</button>
+                            </div>
+
+                          </div>
+                          <!-- /.card-body -->
+                        </div>
+                        <!-- /.card -->
+                      </div>
+                    </div>
+                  </td>
+                </tr>
+                <tr data-widget="expandable-table" aria-expanded="false">
+                  <td>5</td>
+                  <td>Proyek 5</td>
+                  <td>Jalan Lokasi Proyek 5</td>
+                  <td>
+                    <button class="btn btn-primary">Lihat&nbsp;<i class="far fa-eye"></i></button>
+                    <button class="btn btn-success">Edit&nbsp;<i class="fa fa-edit"></i></button>
+                    <button class="btn btn-danger">Hapus&nbsp;<i class="fa fa-trash"></i></button>
+                  </td>
+                </tr>
+                <tr class="expandable-body d-none">
+                  <td colspan="5">
+                    <div class="row">
+                      <div class="col-12">
+                        <div class="card">
+                          <div class="card-header">
+                            <h2 class="card-title"><strong>Neraca Saldo</strong></h2>
+                            <div class="card-tools">
+                              <button class="btn btn-primary">Lihat Neraca&nbsp;<i class="far fa-eye"></i></button>
+                            </div>
+
+                          </div>
+                          <!-- /.card-header -->
+                          <div class="card-body">
+                            <div class="btn-group btn-block" role="group" aria-label="Basic example">
+                              <button type="button" class="btn btn-dark">Kategori</button>
+                              <button type="button" class="btn btn-outline-primary">Pemasukan</button>
+                              <button type="button" class="btn btn-outline-secondary">Pengeluaran</button>
+                            </div>
+
+                          </div>
+                          <!-- /.card-body -->
+                        </div>
+                        <!-- /.card -->
+                      </div>
+                      <div class="col-12">
+                        <div class="card">
+                          <div class="card-header">
+                            <h2 class="card-title"><strong>Rencana Anggaran Belanja</strong></h2>
+                            <div class="card-tools">
+                              <button class="btn btn-primary">Lihat Rekap RAB&nbsp;<i class="far fa-eye"></i></button>
+                            </div>
+
+                          </div>
+                          <!-- /.card-header -->
+                          <div class="card-body">
+                            <div class="btn-group btn-block" role="group" aria-label="Basic example">
+                              <button type="button" class="btn btn-dark">Kategori</button>
+                              <button type="button" class="btn btn-outline-primary">Persiapan</button>
+                              <button type="button" class="btn btn-outline-secondary">Arsitektur</button>
+                              <button type="button" class="btn btn-outline-success">Struktur</button>
+                              <button type="button" class="btn btn-outline-danger">MEP</button>
+                            </div>
+
+                          </div>
+                          <!-- /.card-body -->
+                        </div>
+                        <!-- /.card -->
+                      </div>
+                    </div>
+                  </td>
+                </tr>
+                <tr data-widget="expandable-table" aria-expanded="false">
+                  <td>6</td>
+                  <td>Proyek 6</td>
+                  <td>Jalan Lokasi Proyek 6</td>
+                  <td>
+                    <button class="btn btn-primary">Lihat&nbsp;<i class="far fa-eye"></i></button>
+                    <button class="btn btn-success">Edit&nbsp;<i class="fa fa-edit"></i></button>
+                    <button class="btn btn-danger">Hapus&nbsp;<i class="fa fa-trash"></i></button>
+                  </td>
+                </tr>
+                <tr class="expandable-body d-none">
+                  <td colspan="5">
+                    <div class="row">
+                      <div class="col-12">
+                        <div class="card">
+                          <div class="card-header">
+                            <h2 class="card-title"><strong>Neraca Saldo</strong></h2>
+                            <div class="card-tools">
+                              <button class="btn btn-primary">Lihat Neraca&nbsp;<i class="far fa-eye"></i></button>
+                            </div>
+
+                          </div>
+                          <!-- /.card-header -->
+                          <div class="card-body">
+                            <div class="btn-group btn-block" role="group" aria-label="Basic example">
+                              <button type="button" class="btn btn-dark">Kategori</button>
+                              <button type="button" class="btn btn-outline-primary">Pemasukan</button>
+                              <button type="button" class="btn btn-outline-secondary">Pengeluaran</button>
+                            </div>
+
+                          </div>
+                          <!-- /.card-body -->
+                        </div>
+                        <!-- /.card -->
+                      </div>
+                      <div class="col-12">
+                        <div class="card">
+                          <div class="card-header">
+                            <h2 class="card-title"><strong>Rencana Anggaran Belanja</strong></h2>
+                            <div class="card-tools">
+                              <button class="btn btn-primary">Lihat Rekap RAB&nbsp;<i class="far fa-eye"></i></button>
+                            </div>
+
+                          </div>
+                          <!-- /.card-header -->
+                          <div class="card-body">
+                            <div class="btn-group btn-block" role="group" aria-label="Basic example">
+                              <button type="button" class="btn btn-dark">Kategori</button>
+                              <button type="button" class="btn btn-outline-primary">Persiapan</button>
+                              <button type="button" class="btn btn-outline-secondary">Arsitektur</button>
+                              <button type="button" class="btn btn-outline-success">Struktur</button>
+                              <button type="button" class="btn btn-outline-danger">MEP</button>
+                            </div>
+
+                          </div>
+                          <!-- /.card-body -->
+                        </div>
+                        <!-- /.card -->
+                      </div>
+                    </div>
+                  </td>
+                </tr>
+                <tr data-widget="expandable-table" aria-expanded="false">
+                  <td>7</td>
+                  <td>Proyek 7</td>
+                  <td>Jalan Lokasi Proyek 7</td>
+                  <td>
+                    <button class="btn btn-primary">Lihat&nbsp;<i class="far fa-eye"></i></button>
+                    <button class="btn btn-success">Edit&nbsp;<i class="fa fa-edit"></i></button>
+                    <button class="btn btn-danger">Hapus&nbsp;<i class="fa fa-trash"></i></button>
+                  </td>
+                </tr>
+                <tr class="expandable-body d-none">
+                  <td colspan="5">
+                    <div class="row">
+                      <div class="col-12">
+                        <div class="card">
+                          <div class="card-header">
+                            <h2 class="card-title"><strong>Neraca Saldo</strong></h2>
+                            <div class="card-tools">
+                              <button class="btn btn-primary">Lihat Neraca&nbsp;<i class="far fa-eye"></i></button>
+                            </div>
+
+                          </div>
+                          <!-- /.card-header -->
+                          <div class="card-body">
+                            <div class="btn-group btn-block" role="group" aria-label="Basic example">
+                              <button type="button" class="btn btn-dark">Kategori</button>
+                              <button type="button" class="btn btn-outline-primary">Pemasukan</button>
+                              <button type="button" class="btn btn-outline-secondary">Pengeluaran</button>
+                            </div>
+
+                          </div>
+                          <!-- /.card-body -->
+                        </div>
+                        <!-- /.card -->
+                      </div>
+                      <div class="col-12">
+                        <div class="card">
+                          <div class="card-header">
+                            <h2 class="card-title"><strong>Rencana Anggaran Belanja</strong></h2>
+                            <div class="card-tools">
+                              <button class="btn btn-primary">Lihat Rekap RAB&nbsp;<i class="far fa-eye"></i></button>
+                            </div>
+
+                          </div>
+                          <!-- /.card-header -->
+                          <div class="card-body">
+                            <div class="btn-group btn-block" role="group" aria-label="Basic example">
+                              <button type="button" class="btn btn-dark">Kategori</button>
+                              <button type="button" class="btn btn-outline-primary">Persiapan</button>
+                              <button type="button" class="btn btn-outline-secondary">Arsitektur</button>
+                              <button type="button" class="btn btn-outline-success">Struktur</button>
+                              <button type="button" class="btn btn-outline-danger">MEP</button>
+                            </div>
+
+                          </div>
+                          <!-- /.card-body -->
+                        </div>
+                        <!-- /.card -->
+                      </div>
+                    </div>
+                  </td>
+                </tr>
+                <tr data-widget="expandable-table" aria-expanded="false">
+                  <td>8</td>
+                  <td>Proyek 8</td>
+                  <td>Jalan Lokasi Proyek 8</td>
+                  <td>
+                    <button class="btn btn-primary">Lihat&nbsp;<i class="far fa-eye"></i></button>
+                    <button class="btn btn-success">Edit&nbsp;<i class="fa fa-edit"></i></button>
+                    <button class="btn btn-danger">Hapus&nbsp;<i class="fa fa-trash"></i></button>
+                  </td>
+                </tr>
+                <tr class="expandable-body d-none">
+                  <td colspan="5">
+                    <div class="row">
+                      <div class="col-12">
+                        <div class="card">
+                          <div class="card-header">
+                            <h2 class="card-title"><strong>Neraca Saldo</strong></h2>
+                            <div class="card-tools">
+                              <button class="btn btn-primary">Lihat Neraca&nbsp;<i class="far fa-eye"></i></button>
+                            </div>
+
+                          </div>
+                          <!-- /.card-header -->
+                          <div class="card-body">
+                            <div class="btn-group btn-block" role="group" aria-label="Basic example">
+                              <button type="button" class="btn btn-dark">Kategori</button>
+                              <button type="button" class="btn btn-outline-primary">Pemasukan</button>
+                              <button type="button" class="btn btn-outline-secondary">Pengeluaran</button>
+                            </div>
+
+                          </div>
+                          <!-- /.card-body -->
+                        </div>
+                        <!-- /.card -->
+                      </div>
+                      <div class="col-12">
+                        <div class="card">
+                          <div class="card-header">
+                            <h2 class="card-title"><strong>Rencana Anggaran Belanja</strong></h2>
+                            <div class="card-tools">
+                              <button class="btn btn-primary">Lihat Rekap RAB&nbsp;<i class="far fa-eye"></i></button>
+                            </div>
+
+                          </div>
+                          <!-- /.card-header -->
+                          <div class="card-body">
+                            <div class="btn-group btn-block" role="group" aria-label="Basic example">
+                              <button type="button" class="btn btn-dark">Kategori</button>
+                              <button type="button" class="btn btn-outline-primary">Persiapan</button>
+                              <button type="button" class="btn btn-outline-secondary">Arsitektur</button>
+                              <button type="button" class="btn btn-outline-success">Struktur</button>
+                              <button type="button" class="btn btn-outline-danger">MEP</button>
+                            </div>
+
+                          </div>
+                          <!-- /.card-body -->
+                        </div>
+                        <!-- /.card -->
+                      </div>
+                    </div>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
           </div>
-          <table class="table table-bordered table-hover">
-            <thead class="bg-secondary">
-              <tr>
-                <th>#</th>
-                <th>Nama Proyek</th>
-                <th>Lokasi</th>
-                <th>Action</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr data-widget="expandable-table" aria-expanded="false">
-                <td>1</td>
-                <td>Proyek 1</td>
-                <td>Jalan Lokasi Proyek 1</td>
-                <td>
-                  <button class="btn btn-primary">Lihat&nbsp;<i class="far fa-eye"></i></button>
-                  <button class="btn btn-success">Edit&nbsp;<i class="fa fa-edit"></i></button>
-                  <button class="btn btn-danger">Hapus&nbsp;<i class="fa fa-trash"></i></button>
-                </td>
-              </tr>
-              <tr class="expandable-body d-none">
-                <td colspan="5">
-                  <div class="row">
-                    <div class="col-12">
-                      <div class="card">
-                        <div class="card-header">
-                          <h2 class="card-title"><strong>Neraca Saldo</strong></h2>
-                          <div class="card-tools">
-                            <button class="btn btn-primary">Lihat Neraca&nbsp;<i class="far fa-eye"></i></button>
-                          </div>
-
-                        </div>
-                        <!-- /.card-header -->
-                        <div class="card-body">
-                          <div class="btn-group btn-block" role="group" aria-label="Basic example">
-                            <button type="button" class="btn btn-dark">Kategori</button>
-                            <button type="button" class="btn btn-outline-primary">Pemasukan</button>
-                            <button type="button" class="btn btn-outline-secondary">Pengeluaran</button>
-                          </div>
-
-                        </div>
-                        <!-- /.card-body -->
-                      </div>
-                      <!-- /.card -->
-                    </div>
-                    <div class="col-12">
-                      <div class="card">
-                        <div class="card-header">
-                          <h2 class="card-title"><strong>Rencana Anggaran Belanja</strong></h2>
-                          <div class="card-tools">
-                            <button class="btn btn-primary">Lihat Rekap RAB&nbsp;<i class="far fa-eye"></i></button>
-                          </div>
-
-                        </div>
-                        <!-- /.card-header -->
-                        <div class="card-body">
-                          <div class="btn-group btn-block" role="group" aria-label="Basic example">
-                            <button type="button" class="btn btn-dark">Kategori</button>
-                            <button type="button" class="btn btn-outline-primary">Persiapan</button>
-                            <button type="button" class="btn btn-outline-secondary">Arsitektur</button>
-                            <button type="button" class="btn btn-outline-success">Struktur</button>
-                            <button type="button" class="btn btn-outline-danger">MEP</button>
-                          </div>
-
-                        </div>
-                        <!-- /.card-body -->
-                      </div>
-                      <!-- /.card -->
-                    </div>
-                  </div>
-                </td>
-              </tr>
-              <tr data-widget="expandable-table" aria-expanded="false">
-                <td>2</td>
-                <td>Proyek 2</td>
-                <td>Jalan Lokasi Proyek 2</td>
-                <td>
-                  <button class="btn btn-primary">Lihat&nbsp;<i class="far fa-eye"></i></button>
-                  <button class="btn btn-success">Edit&nbsp;<i class="fa fa-edit"></i></button>
-                  <button class="btn btn-danger">Hapus&nbsp;<i class="fa fa-trash"></i></button>
-                </td>
-              </tr>
-              <tr class="expandable-body d-none">
-                <td colspan="5">
-                  <div class="row">
-                    <div class="col-12">
-                      <div class="card">
-                        <div class="card-header">
-                          <h2 class="card-title"><strong>Neraca Saldo</strong></h2>
-                          <div class="card-tools">
-                            <button class="btn btn-primary">Lihat Neraca&nbsp;<i class="far fa-eye"></i></button>
-                          </div>
-
-                        </div>
-                        <!-- /.card-header -->
-                        <div class="card-body">
-                          <div class="btn-group btn-block" role="group" aria-label="Basic example">
-                            <button type="button" class="btn btn-dark">Kategori</button>
-                            <button type="button" class="btn btn-outline-primary">Pemasukan</button>
-                            <button type="button" class="btn btn-outline-secondary">Pengeluaran</button>
-                          </div>
-
-                        </div>
-                        <!-- /.card-body -->
-                      </div>
-                      <!-- /.card -->
-                    </div>
-                    <div class="col-12">
-                      <div class="card">
-                        <div class="card-header">
-                          <h2 class="card-title"><strong>Rencana Anggaran Belanja</strong></h2>
-                          <div class="card-tools">
-                            <button class="btn btn-primary">Lihat Rekap RAB&nbsp;<i class="far fa-eye"></i></button>
-                          </div>
-
-                        </div>
-                        <!-- /.card-header -->
-                        <div class="card-body">
-                          <div class="btn-group btn-block" role="group" aria-label="Basic example">
-                            <button type="button" class="btn btn-dark">Kategori</button>
-                            <button type="button" class="btn btn-outline-primary">Persiapan</button>
-                            <button type="button" class="btn btn-outline-secondary">Arsitektur</button>
-                            <button type="button" class="btn btn-outline-success">Struktur</button>
-                            <button type="button" class="btn btn-outline-danger">MEP</button>
-                          </div>
-
-                        </div>
-                        <!-- /.card-body -->
-                      </div>
-                      <!-- /.card -->
-                    </div>
-                  </div>
-                </td>
-              </tr>
-              <tr data-widget="expandable-table" aria-expanded="true">
-                <td>3</td>
-                <td>Proyek 3</td>
-                <td>Jalan Lokasi Proyek 3</td>
-                <td>
-                  <button class="btn btn-primary">Lihat&nbsp;<i class="far fa-eye"></i></button>
-                  <button class="btn btn-success">Edit&nbsp;<i class="fa fa-edit"></i></button>
-                  <button class="btn btn-danger">Hapus&nbsp;<i class="fa fa-trash"></i></button>
-                </td>
-              </tr>
-              <tr class="expandable-body">
-                <td colspan="5">
-                  <div class="row">
-                    <div class="col-12">
-                      <div class="card">
-                        <div class="card-header">
-                          <h2 class="card-title"><strong>Neraca Saldo</strong></h2>
-                          <div class="card-tools">
-                            <button class="btn btn-primary">Lihat Neraca&nbsp;<i class="far fa-eye"></i></button>
-                          </div>
-
-                        </div>
-                        <!-- /.card-header -->
-                        <div class="card-body">
-                          <div class="btn-group btn-block" role="group" aria-label="Basic example">
-                            <button type="button" class="btn btn-dark">Kategori</button>
-                            <button type="button" class="btn btn-outline-primary">Pemasukan</button>
-                            <button type="button" class="btn btn-outline-secondary">Pengeluaran</button>
-                          </div>
-
-                        </div>
-                        <!-- /.card-body -->
-                      </div>
-                      <!-- /.card -->
-                    </div>
-                    <div class="col-12">
-                      <div class="card">
-                        <div class="card-header">
-                          <h2 class="card-title"><strong>Rencana Anggaran Belanja</strong></h2>
-                          <div class="card-tools">
-                            <button class="btn btn-primary">Lihat Rekap RAB&nbsp;<i class="far fa-eye"></i></button>
-                          </div>
-
-                        </div>
-                        <!-- /.card-header -->
-                        <div class="card-body">
-                          <div class="btn-group btn-block" role="group" aria-label="Basic example">
-                            <button type="button" class="btn btn-dark">Kategori</button>
-                            <button type="button" class="btn btn-outline-primary">Persiapan</button>
-                            <button type="button" class="btn btn-outline-secondary">Arsitektur</button>
-                            <button type="button" class="btn btn-outline-success">Struktur</button>
-                            <button type="button" class="btn btn-outline-danger">MEP</button>
-                          </div>
-
-                        </div>
-                        <!-- /.card-body -->
-                      </div>
-                      <!-- /.card -->
-                    </div>
-                  </div>
-                </td>
-              </tr>
-              <tr data-widget="expandable-table" aria-expanded="false">
-                <td>4</td>
-                <td>Proyek 4</td>
-                <td>Jalan Lokasi Proyek 4</td>
-                <td>
-                  <button class="btn btn-primary">Lihat&nbsp;<i class="far fa-eye"></i></button>
-                  <button class="btn btn-success">Edit&nbsp;<i class="fa fa-edit"></i></button>
-                  <button class="btn btn-danger">Hapus&nbsp;<i class="fa fa-trash"></i></button>
-                </td>
-              </tr>
-              <tr class="expandable-body d-none">
-                <td colspan="5">
-                  <div class="row">
-                    <div class="col-12">
-                      <div class="card">
-                        <div class="card-header">
-                          <h2 class="card-title"><strong>Neraca Saldo</strong></h2>
-                          <div class="card-tools">
-                            <button class="btn btn-primary">Lihat Neraca&nbsp;<i class="far fa-eye"></i></button>
-                          </div>
-
-                        </div>
-                        <!-- /.card-header -->
-                        <div class="card-body">
-                          <div class="btn-group btn-block" role="group" aria-label="Basic example">
-                            <button type="button" class="btn btn-dark">Kategori</button>
-                            <button type="button" class="btn btn-outline-primary">Pemasukan</button>
-                            <button type="button" class="btn btn-outline-secondary">Pengeluaran</button>
-                          </div>
-
-                        </div>
-                        <!-- /.card-body -->
-                      </div>
-                      <!-- /.card -->
-                    </div>
-                    <div class="col-12">
-                      <div class="card">
-                        <div class="card-header">
-                          <h2 class="card-title"><strong>Rencana Anggaran Belanja</strong></h2>
-                          <div class="card-tools">
-                            <button class="btn btn-primary">Lihat Rekap RAB&nbsp;<i class="far fa-eye"></i></button>
-                          </div>
-
-                        </div>
-                        <!-- /.card-header -->
-                        <div class="card-body">
-                          <div class="btn-group btn-block" role="group" aria-label="Basic example">
-                            <button type="button" class="btn btn-dark">Kategori</button>
-                            <button type="button" class="btn btn-outline-primary">Persiapan</button>
-                            <button type="button" class="btn btn-outline-secondary">Arsitektur</button>
-                            <button type="button" class="btn btn-outline-success">Struktur</button>
-                            <button type="button" class="btn btn-outline-danger">MEP</button>
-                          </div>
-
-                        </div>
-                        <!-- /.card-body -->
-                      </div>
-                      <!-- /.card -->
-                    </div>
-                  </div>
-                </td>
-              </tr>
-              <tr data-widget="expandable-table" aria-expanded="false">
-                <td>5</td>
-                <td>Proyek 5</td>
-                <td>Jalan Lokasi Proyek 5</td>
-                <td>
-                  <button class="btn btn-primary">Lihat&nbsp;<i class="far fa-eye"></i></button>
-                  <button class="btn btn-success">Edit&nbsp;<i class="fa fa-edit"></i></button>
-                  <button class="btn btn-danger">Hapus&nbsp;<i class="fa fa-trash"></i></button>
-                </td>
-              </tr>
-              <tr class="expandable-body d-none">
-                <td colspan="5">
-                  <div class="row">
-                    <div class="col-12">
-                      <div class="card">
-                        <div class="card-header">
-                          <h2 class="card-title"><strong>Neraca Saldo</strong></h2>
-                          <div class="card-tools">
-                            <button class="btn btn-primary">Lihat Neraca&nbsp;<i class="far fa-eye"></i></button>
-                          </div>
-
-                        </div>
-                        <!-- /.card-header -->
-                        <div class="card-body">
-                          <div class="btn-group btn-block" role="group" aria-label="Basic example">
-                            <button type="button" class="btn btn-dark">Kategori</button>
-                            <button type="button" class="btn btn-outline-primary">Pemasukan</button>
-                            <button type="button" class="btn btn-outline-secondary">Pengeluaran</button>
-                          </div>
-
-                        </div>
-                        <!-- /.card-body -->
-                      </div>
-                      <!-- /.card -->
-                    </div>
-                    <div class="col-12">
-                      <div class="card">
-                        <div class="card-header">
-                          <h2 class="card-title"><strong>Rencana Anggaran Belanja</strong></h2>
-                          <div class="card-tools">
-                            <button class="btn btn-primary">Lihat Rekap RAB&nbsp;<i class="far fa-eye"></i></button>
-                          </div>
-
-                        </div>
-                        <!-- /.card-header -->
-                        <div class="card-body">
-                          <div class="btn-group btn-block" role="group" aria-label="Basic example">
-                            <button type="button" class="btn btn-dark">Kategori</button>
-                            <button type="button" class="btn btn-outline-primary">Persiapan</button>
-                            <button type="button" class="btn btn-outline-secondary">Arsitektur</button>
-                            <button type="button" class="btn btn-outline-success">Struktur</button>
-                            <button type="button" class="btn btn-outline-danger">MEP</button>
-                          </div>
-
-                        </div>
-                        <!-- /.card-body -->
-                      </div>
-                      <!-- /.card -->
-                    </div>
-                  </div>
-                </td>
-              </tr>
-              <tr data-widget="expandable-table" aria-expanded="false">
-                <td>6</td>
-                <td>Proyek 6</td>
-                <td>Jalan Lokasi Proyek 6</td>
-                <td>
-                  <button class="btn btn-primary">Lihat&nbsp;<i class="far fa-eye"></i></button>
-                  <button class="btn btn-success">Edit&nbsp;<i class="fa fa-edit"></i></button>
-                  <button class="btn btn-danger">Hapus&nbsp;<i class="fa fa-trash"></i></button>
-                </td>
-              </tr>
-              <tr class="expandable-body d-none">
-                <td colspan="5">
-                  <div class="row">
-                    <div class="col-12">
-                      <div class="card">
-                        <div class="card-header">
-                          <h2 class="card-title"><strong>Neraca Saldo</strong></h2>
-                          <div class="card-tools">
-                            <button class="btn btn-primary">Lihat Neraca&nbsp;<i class="far fa-eye"></i></button>
-                          </div>
-
-                        </div>
-                        <!-- /.card-header -->
-                        <div class="card-body">
-                          <div class="btn-group btn-block" role="group" aria-label="Basic example">
-                            <button type="button" class="btn btn-dark">Kategori</button>
-                            <button type="button" class="btn btn-outline-primary">Pemasukan</button>
-                            <button type="button" class="btn btn-outline-secondary">Pengeluaran</button>
-                          </div>
-
-                        </div>
-                        <!-- /.card-body -->
-                      </div>
-                      <!-- /.card -->
-                    </div>
-                    <div class="col-12">
-                      <div class="card">
-                        <div class="card-header">
-                          <h2 class="card-title"><strong>Rencana Anggaran Belanja</strong></h2>
-                          <div class="card-tools">
-                            <button class="btn btn-primary">Lihat Rekap RAB&nbsp;<i class="far fa-eye"></i></button>
-                          </div>
-
-                        </div>
-                        <!-- /.card-header -->
-                        <div class="card-body">
-                          <div class="btn-group btn-block" role="group" aria-label="Basic example">
-                            <button type="button" class="btn btn-dark">Kategori</button>
-                            <button type="button" class="btn btn-outline-primary">Persiapan</button>
-                            <button type="button" class="btn btn-outline-secondary">Arsitektur</button>
-                            <button type="button" class="btn btn-outline-success">Struktur</button>
-                            <button type="button" class="btn btn-outline-danger">MEP</button>
-                          </div>
-
-                        </div>
-                        <!-- /.card-body -->
-                      </div>
-                      <!-- /.card -->
-                    </div>
-                  </div>
-                </td>
-              </tr>
-              <tr data-widget="expandable-table" aria-expanded="false">
-                <td>7</td>
-                <td>Proyek 7</td>
-                <td>Jalan Lokasi Proyek 7</td>
-                <td>
-                  <button class="btn btn-primary">Lihat&nbsp;<i class="far fa-eye"></i></button>
-                  <button class="btn btn-success">Edit&nbsp;<i class="fa fa-edit"></i></button>
-                  <button class="btn btn-danger">Hapus&nbsp;<i class="fa fa-trash"></i></button>
-                </td>
-              </tr>
-              <tr class="expandable-body d-none">
-                <td colspan="5">
-                  <div class="row">
-                    <div class="col-12">
-                      <div class="card">
-                        <div class="card-header">
-                          <h2 class="card-title"><strong>Neraca Saldo</strong></h2>
-                          <div class="card-tools">
-                            <button class="btn btn-primary">Lihat Neraca&nbsp;<i class="far fa-eye"></i></button>
-                          </div>
-
-                        </div>
-                        <!-- /.card-header -->
-                        <div class="card-body">
-                          <div class="btn-group btn-block" role="group" aria-label="Basic example">
-                            <button type="button" class="btn btn-dark">Kategori</button>
-                            <button type="button" class="btn btn-outline-primary">Pemasukan</button>
-                            <button type="button" class="btn btn-outline-secondary">Pengeluaran</button>
-                          </div>
-
-                        </div>
-                        <!-- /.card-body -->
-                      </div>
-                      <!-- /.card -->
-                    </div>
-                    <div class="col-12">
-                      <div class="card">
-                        <div class="card-header">
-                          <h2 class="card-title"><strong>Rencana Anggaran Belanja</strong></h2>
-                          <div class="card-tools">
-                            <button class="btn btn-primary">Lihat Rekap RAB&nbsp;<i class="far fa-eye"></i></button>
-                          </div>
-
-                        </div>
-                        <!-- /.card-header -->
-                        <div class="card-body">
-                          <div class="btn-group btn-block" role="group" aria-label="Basic example">
-                            <button type="button" class="btn btn-dark">Kategori</button>
-                            <button type="button" class="btn btn-outline-primary">Persiapan</button>
-                            <button type="button" class="btn btn-outline-secondary">Arsitektur</button>
-                            <button type="button" class="btn btn-outline-success">Struktur</button>
-                            <button type="button" class="btn btn-outline-danger">MEP</button>
-                          </div>
-
-                        </div>
-                        <!-- /.card-body -->
-                      </div>
-                      <!-- /.card -->
-                    </div>
-                  </div>
-                </td>
-              </tr>
-              <tr data-widget="expandable-table" aria-expanded="false">
-                <td>8</td>
-                <td>Proyek 8</td>
-                <td>Jalan Lokasi Proyek 8</td>
-                <td>
-                  <button class="btn btn-primary">Lihat&nbsp;<i class="far fa-eye"></i></button>
-                  <button class="btn btn-success">Edit&nbsp;<i class="fa fa-edit"></i></button>
-                  <button class="btn btn-danger">Hapus&nbsp;<i class="fa fa-trash"></i></button>
-                </td>
-              </tr>
-              <tr class="expandable-body d-none">
-                <td colspan="5">
-                  <div class="row">
-                    <div class="col-12">
-                      <div class="card">
-                        <div class="card-header">
-                          <h2 class="card-title"><strong>Neraca Saldo</strong></h2>
-                          <div class="card-tools">
-                            <button class="btn btn-primary">Lihat Neraca&nbsp;<i class="far fa-eye"></i></button>
-                          </div>
-
-                        </div>
-                        <!-- /.card-header -->
-                        <div class="card-body">
-                          <div class="btn-group btn-block" role="group" aria-label="Basic example">
-                            <button type="button" class="btn btn-dark">Kategori</button>
-                            <button type="button" class="btn btn-outline-primary">Pemasukan</button>
-                            <button type="button" class="btn btn-outline-secondary">Pengeluaran</button>
-                          </div>
-
-                        </div>
-                        <!-- /.card-body -->
-                      </div>
-                      <!-- /.card -->
-                    </div>
-                    <div class="col-12">
-                      <div class="card">
-                        <div class="card-header">
-                          <h2 class="card-title"><strong>Rencana Anggaran Belanja</strong></h2>
-                          <div class="card-tools">
-                            <button class="btn btn-primary">Lihat Rekap RAB&nbsp;<i class="far fa-eye"></i></button>
-                          </div>
-
-                        </div>
-                        <!-- /.card-header -->
-                        <div class="card-body">
-                          <div class="btn-group btn-block" role="group" aria-label="Basic example">
-                            <button type="button" class="btn btn-dark">Kategori</button>
-                            <button type="button" class="btn btn-outline-primary">Persiapan</button>
-                            <button type="button" class="btn btn-outline-secondary">Arsitektur</button>
-                            <button type="button" class="btn btn-outline-success">Struktur</button>
-                            <button type="button" class="btn btn-outline-danger">MEP</button>
-                          </div>
-
-                        </div>
-                        <!-- /.card-body -->
-                      </div>
-                      <!-- /.card -->
-                    </div>
-                  </div>
-                </td>
-              </tr>
-            </tbody>
-          </table>
+          <!-- /.card-body -->
         </div>
-        <!-- /.card-body -->
+        <!-- /.card -->
       </div>
-      <!-- /.card -->
-    </div>
     </div>
   </section>
 
